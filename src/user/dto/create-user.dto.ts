@@ -9,4 +9,16 @@ export class CreateUserDTO {
 
   @IsString()
   address: string;
+
+  @IsString()
+  age: string;
+
+  @IsString()
+  profession: string;
+
+  @IsString()
+  country: string;
+
+  @IsString()
+  state: string;
 }
